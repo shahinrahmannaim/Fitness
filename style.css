@@ -1,0 +1,963 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a0101;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 100px;
+    margin-right: 150px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #e85836;
+    margin-left: 150px;
+    font-style: italic;
+}
+.burger{
+    display: none;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: 1px dimgray solid;
+    border-radius: 20px;
+    height: 35px;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+    background-color: #e85836;
+    color: #fff;
+}
+
+
+.hero {
+    padding: 2em;
+    text-align: center;
+    color: #000;
+    display: flex;
+    margin-left: 150px;
+    text-align: left;
+    height: auto;
+}
+
+button {
+    background-color: #ff5c4c;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #b8e03f;
+}
+
+.hero1 h1 {
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero1 p {
+    color: gray;
+    width: 500px;
+}
+
+.shape {
+    font-family: "Audiowide";
+}
+
+.hero2 {
+    background-image: url(./images/images2.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 10px;
+}
+
+.button-container1{
+    width: 150px;
+    height: 60px;
+    background-color: #242121c0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 370px;
+    margin-right: 120px;
+    display: flex;
+}
+.button-container2{
+    width: 170px;
+    height: 80px;
+    background-color: #242121c0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 170px;
+    margin-right: 120px;
+}
+.button-container1 img{
+    width: 30px;
+    margin: 15px;
+   
+}
+
+
+
+.large-text {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+  margin-left: -10px;
+  margin-top:10px;
+}
+.small-text{
+    color: #ccc;
+    font-size: 10px;
+    margin-left: -10px;
+   
+}
+.large-text2 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+   margin-left: 20px;
+    margin-top: 5px;
+}
+.small-text2{
+    color: #ccc;
+    margin-left: 20px;
+   
+}
+
+
+
+
+.change-habits {
+    margin-left: 180px;
+    text-align: center;
+    width: 900px;
+    height: 150px;
+}
+
+.change-habits h2 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.change-habits {
+    color: #ccc;
+}
+
+.habit-img {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    margin-left: 180px;
+    text-align: center;
+}
+
+.habit-img img {
+    width: 70%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+.habit-img h3 {
+    color: #fff;
+}
+
+.habit-img p {
+    color: #a7a0a0;
+}
+
+.extra-mile {
+    width: 900px;
+    display: flex;
+    margin-left: 180px;
+    background-color: #e7dfdf22;
+    height: 350px;
+    border-radius: 30px;
+}
+
+.extra-mile p {
+    color: #aaa3a3;
+    width: 300px;
+}
+
+.extra-h-p {
+    margin-left: 50px;
+}
+
+.run {
+    width: 300px;
+    margin: 10px 10px;
+}
+
+.extra-h-p h2 {
+    color: #f4f1f1;
+    font-size: 40px;
+    width: 300px;
+    font-weight: bold;
+}
+
+.run img {
+    width: 100%;
+    border-radius: 20px;
+    height: 330px;
+    margin-left: 230px;
+}
+
+.training {
+    width: 900px;
+    margin-left: 180px;
+    margin-top: 60px;
+}
+
+.training h2 {
+    color: #f4f1f1;
+    font-size: 40px;
+}
+
+.training p {
+    color: #b8b5b5;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(250, 248, 248);
+    font-size: 18px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    opacity: 0.5;
+}
+
+.grid-item p {
+    margin-top: 150px;
+}
+
+.back-ground1 {
+    width: 220px;
+    background-color: #e3cece;
+    z-index: 1;
+}
+
+.back-ground2 {
+    width: 445px;
+    background-color: #ee0f0f;
+    z-index: 1;
+    margin-left: -230px;
+}
+
+.back-ground3 {
+    background-color: #0c1361;
+    z-index: 1;
+    width: 220px;
+    margin-left: -10px;
+}
+
+.back-ground4 {
+    width: 450px;
+    background-color: #d93434;
+    z-index: 1;
+}
+
+.back-ground5 {
+    background-color: #34602c;
+    z-index: 1;
+    width: 225px;
+}
+
+#image1 {
+    background-image: url('./images/exercise1.jpg');
+    width: 230px;
+    height: 200px;
+}
+
+#image2 {
+    background-image: url('./images/exercise2.png');
+    background-color: rgba(255, 0, 0, 0.5);
+    width: 450px;
+    height: 200px;
+}
+
+#image3 {
+    background-image: url('./images/exercise3.png');
+    background-color: rgba(0, 255, 0, 0.5);
+    width: 230px;
+    height: 200px;
+}
+
+#image4 {
+    background-image: url('./images/exercise4.png');
+    background-color: rgba(0, 255, 255, 0.5);
+    width: 450px;
+    height: 200px;
+}
+
+#image5 {
+    background-image: url('./images/exercise5.jpg');
+    background-color: rgba(0, 255, 0, 0.5);
+    width: 225px;
+    height: 200px;
+}
+
+#image6 {
+    background-image: url('./images/exercise6.jpg');
+    background-color: rgba(0, 0, 255, 0.5);
+    width: 225px;
+    height: 200px;
+}
+
+.training-text {
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bmi {
+    background-color: #4647467a;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 900px;
+    margin-left: 190px;
+}
+
+.bmi-chart,
+.bmi-form {
+    border-radius: 5px;
+    padding: 20px;
+    width: 45%;
+}
+
+.bmi-chart h2,
+.bmi-form h2 {
+    font-size: 1.5em;
+    color: white;
+}
+
+.bmi-chart table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 35px;
+    margin-left: -100px;
+}
+
+.bmi-chart table th,
+.bmi-chart table td {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: left;
+    color: #ccc;
+}
+
+.bmi-form p {
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group select {
+    background-color: #444;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 48%;
+    margin: 5px;
+}
+
+.form-group select {
+    width: 400px;
+    color: #7f7e7e;
+}
+
+.team {
+    width: 900px;
+    margin-left: 190px;
+    text-align: center;
+}
+
+.team h2 {
+    color: #f7f2f2;
+    font-size: 40px;
+}
+.team p{
+    color: #ddd;
+}
+
+.trainer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding: 10px;
+}
+
+.trainer-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 220px;
+}
+
+#img1 {
+    background-image: url('./images/trainer1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+}
+
+#img2 {
+    background-image: url('./images/trainer2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+}
+
+#img3 {
+    background-image: url('./images/trainer3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+}
+
+#img4 {
+    background-image: url('./images/trainer4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+}
+
+#img5 {
+    background-image: url('./images/trainer5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+}
+
+#img6 {
+    background-image: url('./images/trainer6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+}
+
+.trainer-text {
+    margin-top: 190px;
+    margin-left: -150px;
+    color: #f7f2f2;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.trainer-section {
+    width: 900px;
+    margin-left: 190px;
+}
+
+.boxing {
+    display: flex;
+    width: 900px;
+    margin-left: 190px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.boxing img {
+    width: 500px;
+    height: 350px;
+    margin-top: 20px;
+}
+
+.boxing h2 {
+    color: #f7f2f2;
+    font-size: 40px;
+}
+
+.boxing p {
+    color: #a8a2a2;
+}
+
+.boxing button {
+    margin-top: 50px;
+}
+
+
+.footer {
+    background-color: #1c1c1e;
+    color: #b3b3b3;
+    padding: 40px 0;
+}
+
+.footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .footer-section {
+    flex: 1;
+    margin: 20px;
+}
+
+.footer .logo {
+    font-size: 2rem;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.footer .footer-section h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.footer .footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer .footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer .footer-section ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer .footer-section ul li a:hover {
+    color: #e74c3c;
+}
+
+.footer .footer-bottom {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+    color: #b3b3b3;
+}
+
+.footer .footer-bottom p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        margin-right: 0;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+
+    .burger{
+        display: block;
+        cursor: pointer;
+        background-color: #f4f1f1;
+        width: 30px;
+    } 
+
+    .nav-links {
+        display: none; 
+        flex-direction: column;
+        width: 100%;
+        border: none;
+        border-radius: 0;
+        height: auto;
+        margin-top: 10px;
+        align-items: flex-start;
+    }
+
+    .nav-links.show {
+        display: flex; 
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .nav-links a {
+        padding: 10px 20px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .nav-links a.active,
+    .nav-links a:hover {
+        background-color: #e85836;
+        color: #fff;
+    }
+    .hero{
+      flex-direction: column;
+      width: 450px;
+      margin-left: 50px;
+    
+    }
+    .hero1{
+        width: 400px;
+    }
+    .hero1 p{
+        width: 350px;
+    }
+    .hero2{
+      height:500px;
+      width:500px;
+    }
+    
+    .change-habits{
+
+        width: 400px;
+    
+        margin-left: 70px;
+    }
+    .habit-img{
+        flex-direction: column;
+        height: auto;
+        text-align: left;
+       
+
+       
+    }
+    .habit-img img{         
+        width: 300px;
+        margin-left: -80px;
+        height: 300px;
+       
+    }
+    .habit-img p{
+        width: 300px;
+        margin-left: -80px;
+    }
+    .extra-mile{
+        margin-left: 80px;
+        flex-direction: column;
+       height: auto;
+        width: 350px;
+        text-align: center;
+        
+    }
+    .extra-h-p{
+        margin-left: 20px;
+    }
+    .extramile-btn{
+        width: 160px;
+        height: 45px;
+    }
+    .extra-mile img {
+        margin-left: 5px;
+        width: 320px;
+        height: 250px;
+    }
+    .training{
+        width: 400px;
+        margin-left: 100px;
+        height: auto;
+      
+    }
+    .grid-container{
+        flex-direction: column;
+        height: auto;
+        width: 350px;
+        margin-left: -10px;
+    }
+
+   
+    
+    .training h2 {
+        color: #f4f1f1;
+        font-size: 2rem;
+        width: 250px;
+        
+        
+    }
+    
+    .training p {
+        color: #b8b5b5;
+        font-size: 1rem;
+        margin-bottom: 20px;
+        width: 350px;
+    }
+    
+    .grid-container {
+      
+        grid-template-columns: 1fr 2fr;
+        
+       
+    }
+    .grid-container .back-ground2,
+    .grid-container .back-ground4 {
+        display: none; 
+    }
+    .back-ground1 {
+        
+        background-color: #e3cece;
+        z-index: 1;
+        width: 180px;
+        width: 150px;
+    }
+    
+   
+    
+    .back-ground3 {
+        background-color: #0c1361;
+        z-index: 1;
+        
+        width: 180px;
+        height: 150px;
+    }
+    
+    
+    
+    .back-ground5 {
+        background-color: #34602c;
+        z-index: 1;
+        width: 180px;
+        height: 150px;
+    }
+    .back-ground6 {
+        background-color: #34602c;
+        z-index: 1;
+        width: 170px;
+        height: 150px;
+    }
+    
+    #image1 {
+        background-image: url('./images/exercise1.jpg');
+       
+        height: 150px;
+    }
+    
+    #image3 {
+        background-image: url('./images/exercise2.png');
+        background-color: rgba(255, 0, 0, 0.5);
+        width: 180px;
+        height: 150px;
+       
+    }
+    
+    #image3 {
+        background-image: url('./images/exercise3.png');
+        background-color: rgba(0, 255, 0, 0.5);
+        width: 180px;
+        height: 150px;
+    }
+    
+   
+    
+    #image5 {
+        background-image: url('./images/exercise5.jpg');
+        background-color: rgba(0, 255, 0, 0.5);
+        width: 180px;
+        height: 150px;
+    }
+    
+    #image6 {
+        background-image: url('./images/exercise6.jpg');
+        background-color: rgba(0, 0, 255, 0.5);
+        width: 170px;
+        height: 150px;
+    }
+    
+  
+
+    
+    .grid-item {
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        color: #fff;
+        font-size: 1.2rem;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+        height: 200px;
+    }
+   
+    
+    
+    
+    .grid-item p {
+        background: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+ .grid-item {
+            font-size: 1rem;
+            height: 150px;
+        }
+    
+        .grid-item p {
+            padding: 5px;
+        }
+    
+    .container{
+        flex-direction: column;
+        width: 400px;  
+       margin-left: 180px;
+       
+
+    }
+   
+    .bmi-chart {
+        width: 350px;
+        text-align: left;
+        margin-left: 0; 
+        padding-left: 0; 
+    }
+    
+    .bmi-chart h2 {
+        text-align: left; 
+        margin-left: -100px;
+    }
+    
+    .bmi-chart table {
+        width: 100%; 
+        border-collapse: collapse; 
+    }
+    
+    .bmi-chart th, 
+    .bmi-chart td {
+        text-align: left; 
+        padding: 8px; 
+        border: 1px solid #ddd; 
+    }
+    
+    .bmi-chart th {
+        background-color: #f2f2f2; 
+        font-weight: bold; 
+    }
+    .bmi-form{
+        width: 350px;
+        text-align: left;
+        margin-left: -110px; 
+       
+      
+    }
+    .bmi-form h2{
+        text-align: left; 
+       
+    }
+    .bmi-form form{
+        margin-left: 0px;
+    }
+    .team{
+        margin: 100px;
+        width: 350px;
+    }
+    .team h2 {
+        margin-left: auto;
+    }
+    .trainer-grid{
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto; 
+        margin-top:20px; 
+    }
+    .trainer-img{
+        margin-top: 10px;
+        border-radius: 20px;
+    }
+    .boxing{
+        flex-direction: column;
+        width: 350px;
+        margin-left: 100px;
+     
+    }
+    .boxing img{
+        width: 350px;
+    }
+    .footer-content {
+        flex-direction: column; /* Stack the footer sections vertically */
+        align-items: center; /* Center align the content */
+        text-align: center; /* Center the text in each section */
+    }
+
+    .footer-section {
+        margin-bottom: 20px; /* Add space between the sections */
+    }
+
+    .footer-section ul {
+        padding-left: 0; /* Remove padding */
+    }
+
+    .footer-section ul li {
+        margin-bottom: 10px;
+    }
+
+    .footer-section h1.logo {
+        font-size: 20px; /* Slightly reduce the logo font size on mobile */
+    }
+
+    .footer-section h2 {
+        font-size: 18px; /* Slightly reduce the section heading font size */
+    }
+
+    .footer-bottom {
+        margin-top: 10px; /* Reduce space at the bottom */
+        font-size: 14px; /* Adjust the font size */
+    }
+}
+
